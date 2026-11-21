@@ -3,10 +3,10 @@
 一款适配 ClassIsland 自动化模块的自定义定时触发器插件，支持「多时间点 + 星期筛选」组合触发条件，精准控制自动化动作的执行时机。
 
 > [!IMPORTANT]
-> ***注：此插件部分代码由AI完成***
+> ***注：此插件代码由AI完成***
 
 > [!WARNING]
-> **因有更好的插件[AdvancedTimeIsland](https://github.com/inf2147483647/AdvancedTimeIsland),故此插件停止开发** ~~其实是没什么东西能加了~~
+> **因有更好的插件[AdvancedTimeIsland](https://github.com/inf2147483647/AdvancedTimeIsland),故此插件停止维护** ~~其实是没什么东西能加了~~
 
 ## 核心功能
 - **多时间点支持**：单个触发器可添加任意多个时间点，无需重复创建多条自动化规则
@@ -21,6 +21,9 @@
 3. 通过 TimePicker 选择时间后点击「添加时间点」，可批量添加多个触发时间；也可使用便携导入功能一键识别文本中的时间；
 4. 勾选需要生效的星期，支持单选、多选与全选；
 5. 绑定弹窗提醒、软件启动、课表切换等任意自动化动作，保存后即可生效。
+
+## 开发原因
+原版ClassIcland 自动化触发器中没有指定时间触发的功能，只能在时间表中添加行动且没有判断条件用起来十分麻烦，加了Extralsland插件后自动化规则集中有今天是(HH:mm)和时间晚于(HH:mm:ss)的规则，但使用后达不到我想要的效果，于是写了这个插件。[AdvancedTimeIsland](https://github.com/inf2147483647/AdvancedTimeIsland)已经实现我想要的内容且此插件代码由AI完成我**无力维护**，故**停止维护**
 
 ## 更新日志
 ### v1.3.0
@@ -52,5 +55,5 @@
 MIT License © 1312333
 
 [类似插件](https://github.com/inf2147483647/AdvancedTimeIsland)
-[![GitHub Roast 评分徽章](https://ghfind.com/api/badge/1312333)](https://ghfind.com/u/1312333)
+[![GitHub Roast 评分徽章](https://ghfind.com/api/badge/AWAurora233)](https://ghfind.com/u/AWAurora233)
 [ClassIsland 开发文档](https://docs.classisland.tech/dev/)
